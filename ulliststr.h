@@ -16,7 +16,8 @@ class ULListStr {
      * first=0, last=ARRSIZE indicates the array
      * is fully occupied
      */
-    size_t first, last;
+    size_t first, last; //
+
     Item *prev;
     Item *next;
 
@@ -44,6 +45,8 @@ class ULListStr {
    *   - MUST RUN in O(1)
    */
   size_t size() const;
+
+
 
   /**
    * Returns true if the list is empty, false otherwise
